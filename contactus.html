@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--This is all about houseplants-->
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="houseplants--" content="This is a website about houseplants--">
+        <meta name="keywords" content="houseplants--, growing, succulents, urban gardening, decorative plants,home, indoor garden">
+        <title>House of Green Fingers</title>
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        <link rel="icon" href="images/favicon-16x16.png">
+        <style>
+            main {
+                background-image: url("images/cherryBlossom.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 2em;
+                
+            }
+            
+
+            .formbox {
+                margin-right: 20%;
+                margin-left: 20%;
+                margin-bottom: 10em;
+                text-align: left;
+                padding-bottom: 5em;
+               
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!-- inline styling for image to the logo, logo is also clickable to take you back to the homepage -->
+            <a href="index.html"><img class="logoImage"  src="images/logo4.jpg" alt="Clickable logo"></a>
+            <h1>Contact Us</h1>
+        </header>
+        <nav>
+            <ul> <!-- unordered list -->
+                <li > <a class="borderLeft" href="index.html" > Home </a></li>
+                <li> <a href="indoorplants.html"> Indoor </a></li> 
+                <li> <a href="outdoorplants.html"> Outdoor  </a></li> 
+                <li> <a href="goodforyou.html">  Health  </a></li> 
+                <li> <a href="fauna.html"> Fauna  </a></li>
+                <li id="active" > <a href="contactus.html"> Contact Us  </a></li></ul>
+         </nav>
+       
+        
+        <main>          
+            <section class="formbox">
+            <h6>Contact Us</h6>
+        
+            <form action="http:/foo.com" method="get">
+                
+            <h3>Please enter the following information: </h3>
+
+                <label for="first_name">First name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name"> Last name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"> 
+                 <br>
+                
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <input type="radio" id="gender" name="gender" value="other"> Other <br>
+
+                <label for=""internet"> Heard of us:</label>
+                <fieldset style="border: none;">
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" class="marginal" id="hear" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="marginal" id="hear" name="friend" value="friend"> Friend <br>
+                    <input type="checkbox" class="marginal" id="hear" name="Add" value="Add"> Others <br>
+
+                </fieldset>
+                <br>
+                <label for="message">Query : </label>
+
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlenght="200"></textarea> <br>
+
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+
+                </form>
+
+                
+           
+           
+           
+   
+            
+                
+            
+        </main>
+    <footer width="100%"> <!-- Footer grouping of content for display end of screen -->
+        <ul>
+            <li> <a href="index.html">Home </a></li>
+            <li> <a href="indoorplants.html">Indoor </a></li>
+            <li> <a href="outdoorplants.html">Outdoor </a></li>
+            <li> <a href="goodforyou.html">Health </a></li>
+            <li> <a href="fauna.html">Fauna</a></li>
+            <li> <a href="contactus.html">Contact Us </a></li>
+            
+        </ul>
+            
+            <p>&copy;Copyright 2025 This is a College Assignment</p>
+    </footer>
+    </body>
+</html>
