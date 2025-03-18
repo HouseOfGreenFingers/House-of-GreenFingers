@@ -31,8 +31,7 @@ nav{
     margin:5px;
     border: 10px;
     border-color: rgba(125, 129, 84, 0.91); 
-
- 
+     
  }
  
  nav ul li a {
@@ -48,6 +47,14 @@ nav{
  { 
     color: black;
 
+    }
+
+.flexbox {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap:1em;
+        list-style-type: style none;
     }
 
 /*styling for the the body of the page, min-height 100% so that footer is where it should be, styling includes line spacing height and font size*/
@@ -223,13 +230,14 @@ p {
     padding-right: 2em;
 }
 footer {
-    margin-left: 0%;
-    position: fixed;
-    bottom: 0px;
+    clear:both;
+    position: relative;    
+    bottom: 0;
     width: 100%;
     background-color: black;
     color: rgb(200,241,193);
     text-align: center;
+    
     
        
  }
@@ -327,3 +335,4 @@ p{
     margin-left: 5px;
     margin-right: 5px;
 }
+
